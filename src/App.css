@@ -1,0 +1,68 @@
+body{
+  zoom: 87%;
+}
+body h2, body p, body h1{
+  font-family: 'Poppins', sans-serif;
+
+}
+
+.Task{
+    background: #f0f4f9;
+    padding: 11px 17px;
+    height: 516px;
+    border-radius: 5px;
+}
+
+
+.Tasks{
+  overflow-y: scroll;
+  overflow-x: hidden;
+  height: 408px;
+  padding: 10px;
+}
+
+.Tasks .card {
+    width:"98%";
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 6px;
+  border-radius:5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  /* background: #f1f1f1;  */
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888; 
+  border-radius:5px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
+
+/* Modal */
+.modal-backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1050;
+  width: 100%!important;
+  height: 100%!important;
+  background-color: #000;
+}
+
+.modal-content {
+  margin-top: 24%!important;
+}
+
+.btn-purple{
+  color:#FFF!important;
+  background:#563d7c!important;
+}
