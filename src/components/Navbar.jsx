@@ -4,8 +4,8 @@ const Navbar = ({logo}) =>{
   return (
     <>
       <nav className="navbar navbar-light bg-light">
-            {/* <img src={logo} className="w-4"/> */}
         <div className="container justify-content-center">         
+            <img src={logo} className="w-4" title="Kanban" alt="Kanban"/>
             <h1>Kanban</h1>
      
         </div>
