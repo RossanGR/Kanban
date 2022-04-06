@@ -1,7 +1,7 @@
 # Model kanban maked with React JS
 
-<!-- <img src="public/assets/kanban.gif" alt="Video Kanban" title="Video Kanban">  -->
-<video width="700" src="public/assets/kanban.webm" autoplay muted></video>
+<img src="public/assets/kanban.gif" alt="Video Kanban" title="Video Kanban"> 
+
 
 # Start Project 
 With Node JS installed on your computer. At the command prompt, inside the root folder, type ```npm start```
